@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping(value = "/test")
     public String disp(){
-        return "hello from controller ";
+        return "hello from controller for web hook test  ";
+
     }
 }
