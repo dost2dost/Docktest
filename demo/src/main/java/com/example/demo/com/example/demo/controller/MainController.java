@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.com.example.demo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
     @GetMapping(value = "/test")
-    
     public String disp(){
         return "hello from controller ";
     }
