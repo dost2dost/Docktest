@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * Created by DostM on 12/22/2019.
+ */
+@RestController
+public class MainController {
+    @GetMapping(value = "/test")
+    
+    public String disp(){
+        return "hello from controller ";
+    }
+}
