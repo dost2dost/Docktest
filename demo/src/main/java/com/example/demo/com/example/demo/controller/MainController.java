@@ -13,4 +13,10 @@ public class MainController {
         return "hello from controller for web hook test also jj  ";
 
     }
+
+    @GetMapping(value = "/hello")
+    public String disp1(){
+        return "Come to join me here ! ";
+
+    }
 }
